@@ -52,14 +52,18 @@
   margin-left: 70px;
   margin-right: 70px;
 }
-.dropPopular {
-  text-align: left;
+.Event4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: black 4px solid;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
 .childEvent {
   width: 50%;
   text-align: center;
-  
 }
 
 .a {
@@ -67,7 +71,7 @@
   text-decoration: none;
 }
 
-.Popular .Create{
+.Popular {
   position: relative;
   display: inline-block;
 }
@@ -77,14 +81,38 @@
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 12px 16px;
   z-index: 1;
 }
 
-.Popular:hover .Create:hover .dropdown-content {
+.Popular:hover .dropdown-content {
   display: block;
 }
-.description{
-  marign
+
+.description {
+  margin-left: 260px;
+  margin-right: 250px;
+}
+
+.aboutImg {
+  display: flex;
+  justify-content: space-around;
+}
+
+.addEvent{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;}
+
+
+input {
+  border: solid black 2px;
+}
+
+.title {
+  margin-right: 210px;
+}
+.CreateButton{
+  margin-right 200px;
 }
