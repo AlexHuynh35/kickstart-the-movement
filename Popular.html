@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-session_start(); 
 <html lang="en">
   <head>
     <title>Hottest Events!</title>
@@ -20,20 +19,10 @@ session_start();
             <p>
               Popular
             </p>
-            <div class="dropdown-content">
-              <p>Hello World!</p>
-            </div>
           </a>
-        </div>
-        <div class="Create Tab">
-          <a class="a" href="Create.html">
-            <p>
-              Suggest an Event
-            </p>
-            <div class="dropdown-content">
-              <p>Hello World!</p>
-            </div>
-          </a>
+          <div class="dropdown-content">
+            <p>Look at popular events!</p>
+          </div>
         </div>
         <div class="Home Tab">
           <a class="a" href="index.html">
@@ -52,78 +41,86 @@ session_start();
         </div>
       </div>
     </div>
+
     <div class="about">
-      <div class="Event1">
-        <div class="childEvent">
-          <h1>
-            March On Washington
-          </h1>
-          <h2>
-            05/19/2020
-          </h2>
-          <p class="eve1">
-            We'll be taking to the streets to protest the lack of black
-            suffrage!
-          </p>
+      <div class="event">
+        <div class="Event1">
+          <div class="childEvent">
+            <h1>
+              March On Washington
+            </h1>
+            <h2>
+              05/19/2020
+            </h2>
+            <p>
+              We'll be taking to the streets to protest the lack of black
+              suffrage!
+            </p>
+          </div>
+          <div class="childEvent">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRIamrMykbDSEC5PtOl9Wel4EJ3M-h5wED_IQ0SiCR-ERoHYMNe"
+              height="150px"
+              width="150px"
+              class="eevee1"
+            />
+          </div>
         </div>
-        <div class="childEvent">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRIamrMykbDSEC5PtOl9Wel4EJ3M-h5wED_IQ0SiCR-ERoHYMNe"
-            height="150px"
-            width="150px"
-            class="eevee1"
-          />
+        <div class="Event2">
+          <div class="childEvent">
+            <h1>
+              Pride March
+            </h1>
+            <h2>
+              06/28/2020
+            </h2>
+            <p>
+              Join us in the streets in honor of Harvey Milk, and the defeat of
+              prop 6!
+            </p>
+          </div>
+          <div class="childEvent">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR2JyUi8qxnhBXfw3OpLsb833WkmEedz86tYA45PGC4gJ-3J0Mc"
+              height="150px"
+              width="150px"
+            />
+          </div>
+        </div>
+        <div class="Event3">
+          <div class="childEvent">
+            <h1>
+              Protesting Police Brutality
+            </h1>
+            <h2>
+              12/25/2020
+            </h2>
+            <p>
+              Take to the streets in order to advocate against the injustice
+              treatment of pocs!
+            </p>
+          </div>
+          <div class="childEvent">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSteRiAcyW-J86VnZ0Bhif45ILlJc1cJteOuExtDTRVYyusCmEZ"
+              height="150px"
+              width="150px"
+            />
+          </div>
+        </div>
+        <div class="Event4">
+          <div class="childEvent">
+            <h1 class="title4"></h1>
+            <h2 class="date4"></h2>
+            <p class="description4"></p>
+          </div>
         </div>
       </div>
-      <div class="Event2">
-        <div class="childEvent">
-          <h1>
-            Pride March
-          </h1>
-          <h2>
-            06/28/2020
-          </h2>
-          <p>
-            Join us in the streets in honor of Harvey Milk, and the defeat of
-            prop 6!
-          </p>
-        </div>
-        <div class="childEvent">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR2JyUi8qxnhBXfw3OpLsb833WkmEedz86tYA45PGC4gJ-3J0Mc"
-            height="150px"
-            width="150px"
-          />
-        </div>
-      </div>
-      <div class="Event3">
-        <div class="childEvent">
-          <h1>
-            Protesting Police Brutality
-          </h1>
-          <h2>
-            12/25/2020
-          </h2>
-          <p>
-            Take to the streets in order to advocate against the injustice
-            treatment of pocs!
-          </p>
-        </div>
-        <div class="childEvent">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSteRiAcyW-J86VnZ0Bhif45ILlJc1cJteOuExtDTRVYyusCmEZ"
-            height="150px"
-            width="150px"
-          />
-        </div>
-      </div>
-      <div class="Event4">
-        <h1 class="titleEvent4">
-  
-        </h1>
-        <h2 class="dateEvent4"></h2>
-        <p class="descriptionEvent4"></p>
-        <img class="imageEvent4" />
+      <div class="addEvent">
+        <input class="title" placeholder="place your title here" />
+        <input class="date" placeholder="place the date of your even here" />
+        <input class="description" placeholder="Describe your event" />
+        <button class="CreateButton">Create</button>
       </div>
     </div>
   </body>
